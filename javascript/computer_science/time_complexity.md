@@ -50,10 +50,10 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
 
 2. We have a loop. For each iteration of the loop, we do the following:
 
-    1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
-    2. We then check if currentNumber is odd. That is 1 step.
-    3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
-    4. We increase `currentNumber` by 1. That is 1 step.
+   1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
+   2. We then check if currentNumber is odd. That is 1 step.
+   3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
+   4. We increase `currentNumber` by 1. That is 1 step.
 
 3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
 
@@ -89,9 +89,9 @@ To do that, we need to delve into a new concept: Asymptotic Notations and, in pa
 
 Asymptotic Notations are used to describe the running time of an algorithm. Because an algorithm's running time can differ depending on the input, there are several notations that measure that running time in different ways. The 3 most common are as follows:
 
-- Big O Notation - represents the upper bound of an algorithm. This means the worst-case scenario for how the algorithm will perform.
-- Omega Notation - represents the lower bound of an algorithm. This is the best-case scenario.
-- Theta Notation - represents both the upper bound and lower bound and therefore analyses the average case complexity of an algorithm.
+- Big O Notation :- represents the upper bound of an algorithm. This means the worst-case scenario for how the algorithm will perform.
+- Omega Notation :- represents the lower bound of an algorithm. This is the best-case scenario.
+- Theta Notation :- represents both the upper bound and lower bound and therefore analyses the average case complexity of an algorithm.
 
 Big O is the one you'll most commonly see referenced because you need to be sure the worst-case scenario for any code you write is scalable as the inputs grow in your application.
 
@@ -221,11 +221,11 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - Factorial complexity
 
-A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 * 3 * 2 * 1.
+A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 _ 3 _ 2 \* 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
-The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
+The factorial of 3 is 6 (3 _ 2 _ 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
 
 ### Alternatives to Big O
 
@@ -314,7 +314,7 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
 2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
-3. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
+3.  Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
 
 </div>
 
